@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Near Alarm</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="nav_map">Map</string>
+    <string name="nav_alarms">Alarms</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Map Screen -->
+    <string name="map_search_hint">Search place or address…</string>
+    <string name="map_my_location">My Location</string>
+    <string name="map_set_alarm_button">Set Location Alarm</string>
+    <string name="map_tap_instruction">Tap or long press map to place a pin</string>
+    <string name="map_selected_point">Selected Location</string>
+    <string name="map_attribution">© OpenStreetMap contributors</string>
+
+    <!-- Alarm Setup & Card -->
+    <string name="alarm_name_label">Alarm Name</string>
+    <string name="alarm_name_hint">e.g., Supermarket, Pick up parcel, Train station</string>
+    <string name="alarm_location_label">Location</string>
+    <string name="alarm_radius_label">Notify me within</string>
+    <string name="alarm_trigger_label">Trigger</string>
+    <string name="trigger_enter">Enter location</string>
+    <string name="trigger_exit">Leave location</string>
+    <string name="alarm_alert_type">Alert Type</string>
+    <string name="alert_notification">Notification</string>
+    <string name="alert_notification_vibrate">Notification + Vibration</string>
+    <string name="alert_sound">Alarm Sound</string>
+    <string name="alarm_repeat_label">Repeat</string>
+    <string name="repeat_once">Once</string>
+    <string name="repeat_always">Every time</string>
+    <string name="alarm_memo_label">Memo (Optional)</string>
+    <string name="alarm_memo_hint">e.g., Buy milk and eggs, prepare to get off</string>
+    <string name="save_alarm">Save Alarm</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="delete_alarm">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Alarms List -->
+    <string name="alarms_active_tab">Active</string>
+    <string name="alarms_inactive_tab">Inactive</string>
+    <string name="no_active_alarms">No active alarms.\nSelect a place on the map to create one.</string>
+    <string name="no_inactive_alarms">No inactive alarms.</string>
+    <string name="alarm_active_badge">Active</string>
+    <string name="alarm_inactive_badge">Off</string>
+    <string name="away_suffix">away</string>
+    <string name="destination_nearby">Destination nearby</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Trigger History</string>
+    <string name="no_history">No alarms have been triggered yet.</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirm">Clear all alarm trigger history?</string>
+    <string name="triggered_at">Triggered %1$s</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_location">Location</string>
+    <string name="settings_foreground_perm">Foreground Location</string>
+    <string name="settings_background_perm">Background Location</string>
+    <string name="settings_perm_granted">Granted</string>
+    <string name="settings_perm_denied">Not Granted</string>
+    <string name="settings_perm_action">Enable</string>
+    <string name="settings_section_alarm">Alarm Defaults</string>
+    <string name="settings_default_radius">Default Radius</string>
+    <string name="settings_sound">Alarm Sound</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_section_units">Distance Units</string>
+    <string name="unit_automatic">Automatic (System Locale)</string>
+    <string name="unit_metric">Kilometers / meters</string>
+    <string name="unit_imperial">Miles / feet</string>
+    <string name="settings_section_privacy">Privacy &amp; Data</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_privacy_options">Privacy Options (Consent)</string>
+    <string name="settings_location_disclosure_title">How Location is Used</string>
+    <string name="settings_clear_history">Clear alarm history</string>
+    <string name="settings_delete_places">Delete saved places</string>
+    <string name="settings_delete_all">Delete all app data</string>
+    <string name="delete_all_confirm_title">Delete All App Data?</string>
+    <string name="delete_all_confirm_msg">This will permanently delete all saved locations, alarms, history, and preferences stored on this device.</string>
+    <string name="settings_section_about">About</string>
+    <string name="about_version">App Version</string>
+    <string name="about_licenses">Open-source licenses</string>
+    <string name="about_osm_attribution">OpenStreetMap Attribution</string>
+    <string name="about_support">Support &amp; Feedback</string>
+
+    <!-- Prominent Disclosures & Permissions -->
+    <string name="disclosure_fg_title">Location Access</string>
+    <string name="disclosure_fg_desc">Near Alarm needs access to your device\'s location to display your position on the map and calculate distance to your destination.\n\nYour location data stays entirely on your device and is never transmitted to any external server.</string>
+    <string name="disclosure_bg_title">Background Location</string>
+    <string name="disclosure_bg_desc">Near Alarm uses location in the background to notify you when you approach a location alarm you created, even when the app isn\'t open.\n\nYour saved locations and location alarm information are stored on your device and are not uploaded to our servers.</string>
+    <string name="disclosure_notification_title">Allow Notifications</string>
+    <string name="disclosure_notification_desc">Near Alarm requires notification permission to alert you with sound and vibration when you arrive near your saved destinations.</string>
+    <string name="continue_action">Continue</string>
+    <string name="not_now">Not Now</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_proximity">Proximity Alarms</string>
+    <string name="notif_channel_proximity_desc">Notifies you when you enter or leave your target locations</string>
+    <string name="notif_channel_sound">High Priority Sound Alarms</string>
+    <string name="notif_channel_sound_desc">Plays audible alert when reaching critical location alarms</string>
+    <string name="notif_title_near">You\'re near your destination!</string>
+    <string name="notif_title_left">You left your location</string>
+    <string name="notif_body_enter">You are within %1$s of "%2$s".</string>
+    <string name="notif_body_exit">You have moved away from "%1$s".</string>
+    <string name="notif_action_dismiss">Dismiss</string>
+    <string name="notif_action_snooze">Snooze (10m)</string>
+    <string name="notif_action_open_map">Open Map</string>
+</resources>
