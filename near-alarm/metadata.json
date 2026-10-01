@@ -1,6 +1,0 @@
-{
-  "name": "Near Alarm",
-  "description": "Distance and place-based proximity alarm using OpenStreetMap and battery-efficient geofencing.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
